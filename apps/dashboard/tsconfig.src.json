@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["src"],
+  "references": [
+    { "path": "../../packages/domain" }
+  ],
+  "compilerOptions": {
+    "jsx": "react",
+    "jsx": "react",
+    "types": ["node"],
+    "outDir": "build/src",
+    "tsBuildInfoFile": ".tsbuildinfo/src.tsbuildinfo",
+    "rootDir": "src",
+    "jsx": "react"
+  }
+}
